@@ -1,49 +1,105 @@
-#container{
-    background-color: rgb(47, 112, 82);
-    height: 100vh;
-    width: 100v;
-    margin:0;
-    padding: 0;
+body {
+  margin: 0;
 }
-#header{
-    background-color: rgb(108, 197, 116);
-    height: 10vh;
+#container {
+  background-color: rgb(47, 112, 82);
+  height: fit-content;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
 }
-#panel1{
-    background-color: rgb(49, 97, 49);
-    float: left;
-    height: 5vh;
-    width: 20vw;
+#header {
+  /* background-color: rgb(108, 197, 116);*/
+  height: 212px;
+  padding-bottom: 10px;
+  padding-top: 0px;
+  margin-top: 50;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  text-align: center;
 }
-#panel2{
-    background-color: rgb(49, 97, 49);
-    float: left;
-    height: 5vh;
-    width: 20vw;
+.image {
+  background-image: url(https://s1.1zoom.me/big3/771/England_Scenery_Peak_District_Hill_598711_6144x2028.jpg);
+  height: 400px;
+  background-size: 1300px 250px;
+  background-repeat: no-repeat;
 }
-#panel3{
-    background-color: rgb(49, 97, 49);
-    float: left;
-    height: 5vh;
-    width: 20vw;
+
+#panel1 {
+  background-color: rgb(49, 97, 49);
+  float: none;
+  height: 5vh;
+  width: 20vw;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
 }
-#panel4{
-    background-color: rgb(49, 97, 49);
-    float: right;
-    height: 5vh;
-    width: 20vw;
+.dropbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: auto;
+  font-size: auto;
+  border: none;
 }
-#panel5{
-    background-color: rgb(49, 97, 49);
-    float: right;
-    height: 5vh;
-    width: 15vw;
+.drop1-con {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
-#body{
-    background-color: rgb(47, 112, 82);
-    margin: 40vh;
+
+.drop1-con a {
+  color: black;
+  padding: auto auto;
+  text-decoration: none;
+  display: block;
 }
-#footer{
-    background-color: greenyellow;
-    height: 5vh;
+
+#panel2 {
+  background-color: rgb(49, 97, 49);
+  float: left;
+  height: 5vh;
+  width: 20vw;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-align: center;
+}
+#panel3 {
+  background-color: rgb(49, 97, 49);
+  float: left;
+  height: 5vh;
+  width: 20vw;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-align: center;
+}
+#panel4 {
+  background-color: rgb(49, 97, 49);
+  float: left;
+  height: 5vh;
+  width: 20vw;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-align: center;
+}
+#panel5 {
+  background-color: rgb(49, 97, 49);
+  float: left;
+  height: 5vh;
+  width: 20vw;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-align: center;
+}
+#body {
+  background-color: rgb(47, 112, 82);
+  margin: 30vh;
+}
+#footer {
+  background-color: greenyellow;
+  height: ;
 }
